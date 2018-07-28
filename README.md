@@ -35,3 +35,10 @@ environment:
   TWITTER_ACCESS_TOKEN_SECRET: my_access_token_secret
   TWITTER_HANDLE: reply_bot
 ```
+
+
+## Resources
+[Account Activity API docs](https://developer.twitter.com/en/docs/accounts-and-users/subscribe-account-activity)
+[Getting started with webhooks](https://developer.twitter.com/en/docs/accounts-and-users/subscribe-account-activity/guides/getting-started-with-webhooks.html)
+
+[Getting Started with the Twitter Account Activity API](https://medium.com/@nragusa/getting-started-with-the-twitter-account-activity-api-beta-395e9498af81)
