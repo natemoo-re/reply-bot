@@ -1,4 +1,5 @@
 # Reply Bot
+**NOTE: This project isn't even functional yet! Use it as a guideline at your own risk.**
 
 Reply Bot is a starter project for building a Twitter Bot that replies to user messages.
 It uses Serverless (AWS Lamda) and Typescript.
@@ -28,9 +29,9 @@ Modify the environment configuration variables with your Twitter keys and the bo
 serverless.yml
 ```yml
 environment:
-  TWITTER_CONSUMER_KEY:
-  TWITTER_CONSUMER_SECRET: a123456b
-  TWITTER_ACCESS_TOKEN:
-  TWITTER_ACCESS_TOKEN_SECRET:
+  TWITTER_CONSUMER_KEY: my_consumer_key
+  TWITTER_CONSUMER_SECRET: my_consumer_secret
+  TWITTER_ACCESS_TOKEN: my_access_token
+  TWITTER_ACCESS_TOKEN_SECRET: my_access_token_secret
   TWITTER_HANDLE: reply_bot
 ```
