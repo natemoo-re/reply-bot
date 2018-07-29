@@ -11,7 +11,7 @@ provider:
 
 environment:
   TWITTER_CONSUMER_KEY:
-  TWITTER_CONSUMER_SECRET: a123456b
+  TWITTER_CONSUMER_SECRET:
   TWITTER_ACCESS_TOKEN:
   TWITTER_ACCESS_TOKEN_SECRET:
   TWITTER_HANDLE: reply_bot
@@ -22,7 +22,7 @@ functions:
     events:
       - http:
           method: get
-          path: hello
+          path: /
   crc:
     handler: handler.crc
     events:
